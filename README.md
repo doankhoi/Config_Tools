@@ -1,7 +1,7 @@
 # Config Tools For Developers
 All config tools for developers
 
-## VS Code
+## VS Code (vs_code.json)
 - How to config on MacOS
   + Press `Command + ,`
   + Press icon `{}`
