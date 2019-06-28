@@ -15,3 +15,5 @@ All config tools for developers
   - Material Icon Theme
   - Prettier
   - Vim
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/doankhoi)
