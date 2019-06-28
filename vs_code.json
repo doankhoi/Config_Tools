@@ -1,0 +1,133 @@
+{
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "editor.fontFamily": "'Operator Mono', 'SF Mono', monospace",
+  "editor.fontSize": 15,
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "prettier.bracketSpacing": false,
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[rust]": {
+    "editor.formatOnSave": true
+  },
+  "highlight.regexFlags": "gi",
+  "highlight.regexes": {
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--|--) *TODO(?:\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/|(?= *(?:[^:]//|/\\*+|<!--|@|--))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)))|(?: +[^@\\n]+)?))": [
+      {
+        "overviewRulerColor": "#ffcc00",
+        "backgroundColor": "#ffcc00",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#ffcc00",
+        "color": "#1f1f1f"
+      }
+    ],
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--|--) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/|(?= *(?:[^:]//|/\\*+|<!--|@|--))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)))|(?: +[^@\\n]+)?))": [
+      {
+        "overviewRulerColor": "#cc0000",
+        "backgroundColor": "#cc0000",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#cc0000",
+        "color": "#1f1f1f"
+      }
+    ],
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--|--) *(?:REVIEW|OPTIMIZE|TSC)(?:\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/|(?= *(?:[^:]//|/\\*+|<!--|@|--))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)))|(?: +[^@\\n]+)?))": [
+      {
+        "overviewRulerColor": "#00ccff",
+        "backgroundColor": "#00ccff",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#00ccff",
+        "color": "#1f1f1f"
+      }
+    ],
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--|--) *(?:NOTE|IDEA)(?:\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/|(?= *(?:[^:]//|/\\*+|<!--|@|--))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)))|(?: +[^@\\n]+)?))": [
+      {
+        "overviewRulerColor": "#cc00cc",
+        "backgroundColor": "#cc00cc",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#cc00cc",
+        "color": "#1f1f1f"
+      }
+    ]
+  },
+  "window.zoomLevel": 0,
+  "bracketPairColorizer.showVerticalScopeLine": false,
+  "bracketPairColorizer.showHorizontalScopeLine": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorTheme": "Night Owl",
+  "breadcrumbs.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "cSpell.userWords": [
+    "Formik",
+    "INBETWEEN",
+    "Onboarding",
+    "Sider",
+    "Whatsapp",
+    "autorun",
+    "camelize",
+    "dismissible",
+    "injectable",
+    "signup",
+    "subdomain"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "dart.autoImportCompletions": true
+}
